@@ -1,0 +1,312 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="lc67846site.css" type="text/css" charset="utf-8" />
+    <title>Landon Cates's Website</title>
+    <script src="winscript.js"></script>
+</head>
+
+<body>
+    <div id="window-main">
+        <div id="titlebar">
+            lc67846's site
+        </div>
+        <div id="container">
+            <center>
+                <h1>Lc67846's site</h1>
+            </center>
+            <hr>
+            <center>
+            <button onclick="window.open('https://github.com/lc67846)"><img src="./images/git.png"><br>GitHub</button>
+                <button onclick="window.open('mailto:jtrock@cleanconnect.us')"><img src="./images/mail.png"><br>Email</button>
+            </center>
+            <hr>
+            <center>
+                <button onclick="wintg('window-abt')"><img src="./images/about.png"><br>About me</button>
+                <button onclick="wintg('window-prg')"><img src="./images/programming.png"><br>Programming</button>
+                <button onclick="wintg('window-prgor')"><img src="./images/outreach.png"><br>Outreach</button>
+                <button onclick="wintg('window-rob')"><img src="./images/robotics.png"><br>Robotics</button>
+                <button onclick="wintg('window-grp')"><img src="./images/graphicdesign.png"><br>Graphic Design</button>
+            </center>
+            <hr>
+            <p id="footer"></p>
+        </div>
+    </div>
+
+    <div id="window-abt" style="display:none">
+        <div id="titlebar">
+            About
+            <button onclick="wintg('window-abt')" id="icb"><img src="closewin.png" alt="Close Window"></button>
+        </div>
+        <div id="container">
+            <div id="About">
+                <div class="section">
+                    <center><img src="./images/headshot.jpg" width="120" height="182"></center>
+                    <p>
+                        I live in Westport, CT, about an hour outside of New York city. I am a Senior in
+                        high school at Staples High School. My studies are focused on Computer Science so a
+                        sampling of Senior classes is, Calculus honors, AP Computer Science A, Applied
+                        Algorithmic
+                        Design and Advanced Statistics and Social Science. In my free time I enjoy
+                        programming, arguing about ethics and programming with friends, building stuff in my
+                        basement and refurbishing old electronics. I additionally
+                        enjoy teaching programming and electronics skills to children and teens at a local
+                        library. If you would like to know more about me, contact me at <a
+                            href="mailto:trock.j@northeastern.edu">trock.j@northeastern.edu</a> or view my
+                        <a href="res.pdf">resume</a> or check out my <a
+                            href="https://www.facebook.com/profile.php?id=100011775793086" target="_self">Facebook
+                            Page.</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="window-prg" style="display: none; top: 285px; left: -210px;">
+        <div id="titlebar">
+            Programming
+            <button onclick="wintg('window-prg');wintg('window-prgdsp')" id="icb"><img src="closewin.png"
+                    alt="Close Window"></button>
+        </div>
+        <div id="container">
+            <div id="Programming">
+                <div class="section">
+                    <div class="grid8 firstcol box">
+                        <h3>Here are some interactive projects I have made for web browsers. Clicking on the links below
+                            will change what project appears in the frame.
+                            I recommend checking out the projects that I've starred.</h3>
+                        <ul>
+                            <li>* <button onclick="window.open('https://github.com/JakeTrock/CleanConnect')">(code)CleanConnect full inventory and damage reporting suite</button><br>
+                            </li>
+                            <li>* <button onclick="window.open('./images/JakeCleanConn.mp4')">(video demo)CleanConnect full inventory and damage reporting suite</button><br>
+                            </li>
+                            <li>* <button onclick="window.open('https://github.com/JakeTrock/HyperLegible')">HyperLegible Accessibility tool</button><br>
+                            </li>
+                            <li>* <button onclick="window.open('./programs/newSprint/demo.html')">NewSprint speedreader</button><br>
+                            </li>
+                            <li><button onclick="window.open('./programs/fridgegames/index.html')">Classic dos games for smart fridges/other devices</button><br>
+                            </li>
+                            <li>* <button onclick="pvchange('autoagent')">autonomous navigation agent demo
+                                    1</button><br></li>
+                            <li><button onclick="pvchange('autoagent2')">autonomous navigation agent demo 2</button><br>
+                            </li>
+                            <li><button onclick="pvchange('cellautomata')">Cellular automata pattern generator(click
+                                    demo
+                                    to
+                                    randomize pattern)</a><br></li>
+                            <li><button onclick="pvchange('cursorfountain')">Cursor fountain 2d water physics
+                                    demo</button><br>
+                            </li>
+                            <!--<li><button onclick="pvchange('digestivesimulation')">Digestive bacterial
+                                    simulation</button><br></li>-->
+                            <!--<li>* <button onclick="pvchange('flow3d')">3-d thermodynamic flow field</button><br></li>-->
+                            <!--<li><button onclick="pvchange('fractalGameOfLife')">* fractallian patterns inserted into a game of life ruleset(looks cool)</button><br></li>-->
+                            <li>* <button onclick="pvchange('grassyhills')">perlin noise 2d landscape
+                                    generator</button><br></li>
+                            <li><button onclick="pvchange('growLine')">passive cursor-following navigational
+                                    intelligence</button><br>
+                            </li>
+                            <li><button onclick="pvchange('linedefender')">'line defender' game I made</button><br>
+                            </li>
+                            <li><button onclick="pvchange('mapgen')">perlin noise map generator</button><br></li>
+                            <li>* <button onclick="pvchange('paintsplat')">procedural paint splats</button><br></li>
+                            <li>* <button onclick="pvchange('partcoll')">particle collision simulation with groundwater
+                                    absorption</button><br></li>
+                            <li><button onclick="pvchange('windBalloon')">Procedural random wind generation</button><br>
+                            </li>
+                            <li>* <button onclick="pvchange('beachball')">"beach ball" 3-d newtonian physics
+                                    simulation(hold mouse to drop ball)</button><br>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="window-prgor" style="display:none">
+        <div id="titlebar">
+            Programming Outreach
+            <button onclick="wintg('window-prgor')" id="icb"><img src="closewin.png" alt="Close Window"></button>
+        </div>
+        <div id="container">
+            <div id="Programming">
+                <div class="section">
+                    <div class="grid4 sidebar">
+                        <div class="box">
+                            <p class="large">
+                                I believe programming to be a skill that would be of utmost use to future generations, so I try my
+                                hardest to democratize what I know. Programming may allow me to solve problems
+                                quickly and be a valuable asset in engineering competitions, but it is also quite the
+                                enjoyable leisure. If you're interested, please head to my <a
+                                    href="https://github.com/jaketrock">Github</a>, I'm
+                                sure you'll find something cool.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="grid8 firstcol">
+                        <img src="./images/Unityclass1.jpg">
+                        <img src="./images/Unityclass.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="window-rob" style="display:none">
+        <div id="titlebar">
+            Robotics
+            <button onclick="wintg('window-rob')" id="icb"><img src="closewin.png" alt="Close Window"></button>
+        </div>
+        <div id="container">
+            <div id="Robotics">
+                <div class="section">
+                    <h1>Robotics</h1>
+                    <div class="grid12 firstcol">
+                        <table border="0" cellspacing="1" cellpadding="0">
+                            <tr>
+                                <th width="298" scope="col"><img src="images/wpirobot.a.jpg" width="253" height="379"
+                                        alt="robot-a"> </th>
+                                <th width="440" scope="col"><img src="images/WPIrobot1-A.jpg" alt="wpi2" width="419"
+                                        height="375"></th>
+                            </tr>
+                            <tr>
+                                <th scope="col"><span class="textcaption">WPI robotics summer course</span></th>
+                                <th scope="col"><span class="textcaption">Robot competition</span></th>
+                            </tr>
+                            <tr>
+                                <th width="450" scope="col"><img src="images/robotics2.jpg" alt="wpi3" width="406"
+                                        height="364">
+                                </th>
+                                <th width="450" scope="col"><img src="images/maker1.jpg" alt="wpi3" height="364"></th>
+                            </tr>
+                            <tr>
+                                <th scope="col"><span class="textcaption">Vex robot created as a team at WPI, summer
+                                        2018</span></th>
+                                <th scope="col"><span class="textcaption">Me at the maker faire showcasing my website
+                                        and
+                                        two robots.</span></th>
+                            </tr>
+                            <tr>
+                                <th width="450" scope="col">
+                                    <a
+                                        href="https://www.youtube.com/watch?v=eR2aIaBvc-g&list=PLxDX2POobQ6WPRAvGhjFb16JshDtqQ54A"><img
+                                            src="images/sobot.jpg" alt="wpi3" width="406" height="364"></a>
+                                </th>
+                                <th width="450" scope="col"><img src="images/scrambler.jpg" alt="wpi3" width="406"
+                                        height="364">
+                                </th>
+                            </tr>
+                            <tr>
+                                <th scope="col"><span class="textcaption">Science olympiad robot, controlled by an
+                                        Arduino
+                                        with code I wrote</span></th>
+                                <th scope="col"><span class="textcaption">Setting up my wheeled vehicle for the
+                                        "scrambler"
+                                        event</span></th>
+                            </tr>
+                            <tr>
+                                <th width="450" scope="col"><img src="images/snake2.jpg" alt="wpi3" height="364"></th>
+                                <th width="450" scope="col"><img src="images/quadruped.jpg" alt="wpi3" height="364">
+                                </th>
+                            </tr>
+                            <tr>
+                                <th scope="col"><span class="textcaption">Westport maker faire, displaying my robotic
+                                        snake</span></th>
+                                <th scope="col"><span class="textcaption">My 3D printed quadruped robot, controlled by
+                                        an
+                                        Arduino</span></th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="window-grp" style="display:none">
+        <div id="titlebar">
+            Graphics
+            <button onclick="wintg('window-grp')" id="icb"><img src="closewin.png" alt="Close Window"></button>
+        </div>
+        <div id="container">
+            <div id="Graphics">
+                <div class="section">
+                    <div class="grid12 firstcol">
+                        <h1>Graphic Design</h1>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="grid8 firstcol box">
+                        <li style="list-style-type:none;">
+                            <h2>Misc.</h2><br>
+                        </li>
+                        <ul>
+                            <li><a href="./images/wireframe.png">(Viewable PNG file) - Wireframe Self-Portrait</a><br>
+                            </li>
+                            <li><a href="./images/Anna%20Maria%20Island%20poster.png">(Viewable PNG file) - Anna Maria
+                                    Island poster</a><br></li>
+                            <li><a href="./images/SHS%20Program%20of%20Studies.png">(Viewable PNG file) - SHS Program of
+                                    Studies</a><br></li>
+                            <li><a href="./images/Staples%20Trash%20sign.png">(Viewable PNG file) - Staples Trash
+                                    sign</a><br></li>
+                            <li><a href="./images/wireframe.ai">(Raw AI file) - Wireframe Self-Portrait</a><br></li>
+                            <li><a href="./images/Anna%20Maria%20Island%20poster.ai">(Raw AI file) - Anna Maria Island
+                                    poster</a><br></li>
+                            <li><a href="./images/SHS%20Program%20of%20Studies.ai">(Raw AI file) - SHS Program of
+                                    Studies</a><br></li>
+                            <li><a href="./images/Staples%20Trash%20sign.ai">(Raw AI file) - Staples Trash sign</a><br>
+                            </li>
+                        </ul>
+                        <br>
+                        <li style="list-style-type:none;">
+                            <h2>Ibex ReadyKit</h2><br>
+                        </li>
+                        <ul>
+                            <li><a href="./images/rk/IbexReadyKitFinal.png">(Viewable PNG file) - Ibex
+                                    ReadyKit(final)</a><br></li>
+                            <li><a href="./images/rk/IbexReadyKitFinal.psd">(Raw PSD file) - Ibex
+                                    ReadyKit(final)</a><br>
+                            </li>
+                            <li><a href="./images/rk/antifreeze.stl">(Raw STL 3d file) - antifreeze</a><br></li>
+                            <li><a href="./images/rk/oil.stl">(Raw STL 3d file) - oil</a><br></li>
+                            <li><a href="./images/rk/transmission%20fluid.stl">(Raw STL 3d file) - transmission
+                                    fluid</a><br></li>
+                            <li><a href="./images/rk/power%20steering%20fluid.stl">(Raw STL 3d file) - power steering
+                                    fluid</a><br></li>
+                            <li><a href="./images/rk/oilLabel%20copy.ai">(Raw AI file) - oilLabel copy</a><br></li>
+                            <li><a href="./images/rk/PSFLabel.ai">(Raw AI file) - PSFLabel</a><br></li>
+                            <li><a href="./images/rk/PSFLabel%20copy.ai">(Raw AI file) - PSFLabel copy</a><br></li>
+                            <li><a href="./images/rk/TFLabel.ai">(Raw AI file) - TFLabel</a><br></li>
+                            <li><a href="./images/rk/TFLabel%20copy.ai">(Raw AI file) - TFLabel copy</a><br></li>
+                            <li><a href="./images/rk/3dmockup.dn">(Raw Dimension file) - 3dmockup</a><br></li>
+                        </ul>
+                    </div>
+
+                    <div class="grid4 sidebar">
+                        <div class="box">
+                            <p class="large">
+                                Here are some graphic design projects which I have selected to share with you. Most are
+                                large in size and resolution, so I had to link to them rather than embedding them.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        draggable("window-main");
+        draggable("window-abt");
+        draggable("window-prg");
+        draggable("window-prgor");
+        draggable("window-rob");
+        draggable("window-grp");
+        (function(){var a=new Date;document.getElementById("footer").innerHTML="&copy;2019-"+a.getFullYear()+" Landon Cates"})();
+    </script>
+</body>
+
+</html>
